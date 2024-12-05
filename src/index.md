@@ -12,9 +12,7 @@ hero:
     - theme: brand
       text: 开始探索
       link: /wiki/about/intro
-    - theme: alt
-      text: 联系我们
-      link: /contact/contactus
+
 
 features:
   - title: 加入我们

@@ -17,10 +17,8 @@ hero:
       link: /contact/contactus
 
 features:
-  - title: 全面文档支持
-    details: 提供详尽的指南、教程和资源，助力您的项目成功。
-  - title: 高效协作平台
-    details: 在共享知识与工具的基础上，促进团队协作。
+  - title: 加入我们
+    details: 我们欢迎不同专业的、不同特长的同学加入，一起分析技术心得，提高技术水平，体验团队合作， 结识志同道合的朋友。
   - title: 持续创新与成长
     details: 掌握爱特工作室的最新发展，始终走在前沿。
 ---

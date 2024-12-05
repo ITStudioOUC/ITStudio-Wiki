@@ -37,8 +37,6 @@ cd ITStudio-Wiki
 2. 安装依赖：
 ```bash
 npm install
-# 或
-yarn install
 ```
 
 ### 开发与部署

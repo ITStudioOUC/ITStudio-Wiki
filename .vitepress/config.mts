@@ -8,7 +8,6 @@ export default defineConfig({
   lang: "zh-CN",
   srcDir: "src",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
     siteTitle: "ITSTUDIO WIKI",
     search: {
@@ -16,8 +15,7 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Wiki", link: "/wiki/about/intro" },
-      { text: "Contact", link: "/contact/contactus" },
+      { text: "Wiki", link: "/wiki/about/intro" }
     ],
 
     sidebar: {
@@ -68,31 +66,28 @@ export default defineConfig({
           ],
         },
         {
-          text: "生活与感悟",
-          // link: "/wiki/life",
+          text: "生活感悟",
+          link: "/wiki/life",
+        },
+        {
+          text: "联系方式与友情链接",
           items: [
             {
-              text: "生活感悟",
-              link: "/wiki/life/reflections",
+              text: "联系方式",
+              link: "/wiki/contact/contatusus",
+              collapsed: false,
+              items: [],
+            },
+            {
+              text: "友情链接",
+              link: "/wiki/contact/link",
               collapsed: false,
               items: [],
             },
           ],
         },
       ],
-      "/contact": [
-        {
-          text: "联系我们",
-          // link: "/contact",
-          items: [
-            { text: "联系方式", link: "/contact/contactus" },
-            { text: "加入我们", link: "/contact/joinus" },
-            { text: "问题反馈", link: "/contact/feedback" },
-          ],
-        },
-      ],
     },
-
     socialLinks: [
       { icon: "googlehome", link: "https://www.itstudio.club/" },
       { icon: "github", link: "https://github.com/ITStudioOUC" },

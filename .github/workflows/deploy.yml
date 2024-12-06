@@ -20,6 +20,9 @@ concurrency:
 
 jobs:
   build:
+    permissions:
+      contents: read
+      id-token: write
     runs-on: ubuntu-latest
     strategy:
       matrix:

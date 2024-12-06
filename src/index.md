@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "ITStudio"
-  text: "中国海洋大学爱特工作室\n知识库与合作平台"
+  text: "中国海洋大学\n爱特工作室WIKI"
   tagline: "Make ITStudio Great Again."
   image:
     src: /logo.png

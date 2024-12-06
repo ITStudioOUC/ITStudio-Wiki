@@ -31,10 +31,8 @@
 
 ### 4、联系我们
 
-
-* 工作室 QQ 群：XXXXXX
-* Bilibili：
-* GitHub Organization：
+* Bilibili：[爱特工作室](https://space.bilibili.com/3546373051910563)
+* GitHub Organization： https://github.com/ITStudioOUC
 * Location：中国海洋大学西海岸校区信息南楼58工坊
 
 

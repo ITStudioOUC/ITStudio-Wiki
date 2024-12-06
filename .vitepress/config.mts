@@ -74,15 +74,10 @@ export default defineConfig({
 
     // Navigation
     nav: [
-      { text: "Home", link: "/" },
+      { text: "主页", link: "/" },
       { text: "Wiki", link: "/wiki/about/intro" },
-      {
-        text: "相关链接",
-        items: [
-          { text: "官方网站", link: "https://www.itstudio.club/" },
-          { text: "GitHub", link: "https://github.com/ITStudioOUC" },
-        ],
-      },
+      { text: "爱特展示网", link: "https://www.itstudio.club/"},
+      { text: "Github", link: "https://github.com/ITStudioOUC"},
     ],
 
     sidebar: {

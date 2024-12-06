@@ -10,9 +10,9 @@ env:
   TZ: Asia/Shanghai
 
 permissions:
+  id-token: write
   contents: read
   pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -20,9 +20,6 @@ concurrency:
 
 jobs:
   build:
-    permissions:
-      contents: read
-      id-token: write
     runs-on: ubuntu-latest
     strategy:
       matrix:

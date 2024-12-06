@@ -88,8 +88,8 @@ export default defineConfig({
     sidebar: {
       "/wiki": [
         {
-          text: "团队介绍",
-          items: [{ text: "爱特工作室简介", link: "/wiki/about/intro" }],
+          text: "爱特工作室简介",
+          link: "/wiki/about/intro",
         },
         {
           text: "新闻公告",
@@ -139,19 +139,11 @@ export default defineConfig({
           items: [
             {
               text: "联系方式",
-              link: "/wiki/contact/contatusus",
-              collapsed: false,
-              items: getMarkdownFiles(
-                path.join(BASE_PATH, "wiki/contact/contatusus")
-              ),
+              link: "/wiki/about/contact",
             },
             {
               text: "友情链接",
-              link: "/wiki/contact/link",
-              collapsed: false,
-              items: getMarkdownFiles(
-                path.join(BASE_PATH, "wiki/contact/link")
-              ),
+              link: "/wiki/about/link",
             },
           ],
         },

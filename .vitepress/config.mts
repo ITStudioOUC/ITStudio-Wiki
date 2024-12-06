@@ -165,8 +165,7 @@ export default defineConfig({
 
     // Footer
     footer: {
-      message: "Released under the Apache License 2.0",
-      copyright: "Copyright 2002-present ITStudio",
+      copyright: "Copyright © 2024 ITStudio Opensource Community",
     },
 
     // Edit link

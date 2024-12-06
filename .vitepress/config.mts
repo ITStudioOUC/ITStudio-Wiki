@@ -2,6 +2,8 @@ import { defineConfig } from "vitepress";
 import fs from "fs";
 import path from "path";
 
+const BASE_PATH = path.join(__dirname, "../src");
+
 function getMarkdownFiles(dirPath: string): { text: string; link: string }[] {
   if (!fs.existsSync(dirPath)) return [];
   return fs
@@ -21,7 +23,7 @@ function getMarkdownFiles(dirPath: string): { text: string; link: string }[] {
       link:
         "/" +
         path
-          .relative(path.join(__dirname, "../src"), path.join(dirPath, file))
+          .relative(BASE_PATH, path.join(dirPath, file))
           .replace(/\.md$/, "")
           .replace(/\\/g, "/"),
     }));
@@ -97,16 +99,14 @@ export default defineConfig({
               link: "/wiki/news/recent-news",
               collapsed: false,
               items: getMarkdownFiles(
-                path.join(__dirname, "../src/wiki/news/recent-news")
+                path.join(BASE_PATH, "wiki/news/recent-news")
               ),
             },
             {
               text: "活动公告",
               link: "/wiki/news/events",
               collapsed: false,
-              items: getMarkdownFiles(
-                path.join(__dirname, "../src/wiki/news/events")
-              ),
+              items: getMarkdownFiles(path.join(BASE_PATH, "wiki/news/events")),
             },
           ],
         },
@@ -117,16 +117,14 @@ export default defineConfig({
               text: "技术博客",
               link: "/wiki/tech/blog",
               collapsed: false,
-              items: getMarkdownFiles(
-                path.join(__dirname, "../src/wiki/tech/blog")
-              ),
+              items: getMarkdownFiles(path.join(BASE_PATH, "wiki/tech/blog")),
             },
             {
               text: "成员项目",
               link: "/wiki/tech/projects",
               collapsed: false,
               items: getMarkdownFiles(
-                path.join(__dirname, "../src/wiki/tech/projects")
+                path.join(BASE_PATH, "wiki/tech/projects")
               ),
             },
           ],
@@ -134,7 +132,7 @@ export default defineConfig({
         {
           text: "生活感悟",
           link: "/wiki/life",
-          items: getMarkdownFiles(path.join(__dirname, "../src/wiki/life")),
+          items: getMarkdownFiles(path.join(BASE_PATH, "wiki/life")),
         },
         {
           text: "联系方式与友情链接",
@@ -144,7 +142,7 @@ export default defineConfig({
               link: "/wiki/contact/contatusus",
               collapsed: false,
               items: getMarkdownFiles(
-                path.join(__dirname, "../src/wiki/contact/contatusus")
+                path.join(BASE_PATH, "wiki/contact/contatusus")
               ),
             },
             {
@@ -152,7 +150,7 @@ export default defineConfig({
               link: "/wiki/contact/link",
               collapsed: false,
               items: getMarkdownFiles(
-                path.join(__dirname, "../src/wiki/contact/link")
+                path.join(BASE_PATH, "wiki/contact/link")
               ),
             },
           ],

@@ -45,17 +45,17 @@ npm install
 
 开发模式：
 ```bash
-npm run docs:dev
+npm run dev
 ```
 
 构建生产版本：
 ```bash
-npm run docs:build
+npm run build
 ```
 
 预览构建结果：
 ```bash
-npm run docs:preview
+npm run preview
 ```
 
 ## 项目结构

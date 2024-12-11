@@ -130,6 +130,11 @@ export default defineConfig({
           items: getMarkdownFiles(path.join(BASE_PATH, "wiki/life")),
         },
         {
+          text: "OUC生存指北",
+          link: "/wiki/ouc",
+          items: getMarkdownFiles(path.join(BASE_PATH, "wiki/ouc")),
+        },
+        {
           text: "联系方式与友情链接",
           items: [
             {

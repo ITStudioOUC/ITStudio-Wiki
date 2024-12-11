@@ -50,6 +50,11 @@ export default defineConfig({
     logo: "/logo.png",
     siteTitle: "ITSTUDIO WIKI",
 
+    // Last updated
+    lastUpdated: {
+      text: "上次更新",
+    },
+
     // Enable search
     search: {
       provider: "local",
@@ -76,9 +81,12 @@ export default defineConfig({
     nav: [
       { text: "主页", link: "/" },
       { text: "Wiki", link: "/wiki/about/intro" },
-      { text: "爱特展示网", link: "https://www.itstudio.club/"},
-      { text: "Github", link: "https://github.com/ITStudioOUC"},
+      { text: "爱特展示网", link: "https://www.itstudio.club/" },
+      { text: "Github", link: "https://github.com/ITStudioOUC" },
     ],
+
+    // Sidebar
+    sidebarMenuLabel: "菜单",
 
     sidebar: {
       "/wiki": [
@@ -172,6 +180,18 @@ export default defineConfig({
       prev: "上一页",
       next: "下一页",
     },
+
+    // Light and dark mode
+    darkModeSwitchLabel: "切换主题",
+
+    lightModeSwitchTitle: "切换到浅色主题",
+    darkModeSwitchTitle: "切换到深色主题",
+
+    // Return to top
+    returnToTopLabel: "返回顶部",
+
+    // Show external link icon in markdown links(only external)
+    externalLinkIcon: true,
 
     // Outline
     outline: {

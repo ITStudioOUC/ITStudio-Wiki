@@ -4,12 +4,12 @@
 
 5月22日，2025 CCF青年精英大会（YEF2025）在珠海横琴盛大开幕。本届大会以“智辟新径”为主题，邀请了150余位来自高校、科研院所、企业的学者、专家，呈上了包括7个特邀报告、5个思想秀报告、2场大会论坛、1场大学生学术秀和22场专题论坛的科技盛宴。工作室成员参加了本次大会。
 
-![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-05-28_213701_814.jpg)
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/2025-05-28_213701_814.jpg)
 
 中国海洋大学学生分会和爱特工作室代表参加了CCF学生分会主席会议，在“学生分会如何组织活动”、“提升学生领导力”的研讨活动中积极发表观点，与其他高校的学生分会代表深入交流与学习。
 
-![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-05-28_213708_160.jpg)
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/2025-05-28_213708_160.jpg)
 
 在科技论坛中，两位同学与其他高校及科研机构的代表深入交流，拓宽了学术视野，了解了行业最新发展趋势。此次参会收获颇丰，不仅学习到了前沿的学术知识，还与众多优秀的青年学者建立了联系，为今后的学术研究和个人发展积累了宝贵资源。
 
-![微信图片_2025-05-28_214058_099](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-05-28_214058_099.jpg)
+![微信图片_2025-05-28_214058_099](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/2025-05-28_214058_099.jpg)

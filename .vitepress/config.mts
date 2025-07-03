@@ -96,22 +96,7 @@ export default defineConfig({
         },
         {
           text: "新闻公告",
-          items: [
-            {
-              text: "近期新闻",
-              link: "/wiki/news/recent-news",
-              collapsed: false,
-              items: getMarkdownFiles(
-                path.join(BASE_PATH, "wiki/news/recent-news")
-              ),
-            },
-            {
-              text: "活动公告",
-              link: "/wiki/news/events",
-              collapsed: false,
-              items: getMarkdownFiles(path.join(BASE_PATH, "wiki/news/events")),
-            },
-          ],
+          link: "/wiki/news/recent-news",
         },
         {
           text: "技术与专业领域",

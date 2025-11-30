@@ -95,11 +95,6 @@ export default defineConfig({
           link: "/wiki/about/intro",
         },
         {
-          text: "生活感悟",
-          link: "/wiki/life",
-          items: getMarkdownFiles(path.join(BASE_PATH, "wiki/life")),
-        },
-        {
           text: "OUC生存指北",
           link: "/wiki/ouc",
           items: getMarkdownFiles(path.join(BASE_PATH, "wiki/ouc")),

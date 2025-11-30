@@ -95,29 +95,6 @@ export default defineConfig({
           link: "/wiki/about/intro",
         },
         {
-          text: "新闻公告",
-          link: "/wiki/news/recent-news",
-        },
-        {
-          text: "技术与专业领域",
-          items: [
-            {
-              text: "技术博客",
-              link: "/wiki/tech/blog",
-              collapsed: false,
-              items: getMarkdownFiles(path.join(BASE_PATH, "wiki/tech/blog")),
-            },
-            {
-              text: "成员项目",
-              link: "/wiki/tech/projects",
-              collapsed: false,
-              items: getMarkdownFiles(
-                path.join(BASE_PATH, "wiki/tech/projects")
-              ),
-            },
-          ],
-        },
-        {
           text: "生活感悟",
           link: "/wiki/life",
           items: getMarkdownFiles(path.join(BASE_PATH, "wiki/life")),

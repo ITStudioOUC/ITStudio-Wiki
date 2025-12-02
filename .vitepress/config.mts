@@ -100,6 +100,13 @@ export default defineConfig({
           items: getMarkdownFiles(path.join(BASE_PATH, "wiki/ouc")),
         },
         {
+          text: "大学该如何度过",
+          items: [  
+            {text:"大学该如何度过", link: "wiki/ouc/CollegeLifeHowTo/01howto"},
+            {text:"科研经历分享", link: "wiki/ouc/CollegeLifeHowTo/02planning"},
+          ]
+        },
+        {
           text: "本科科研之旅",
           items: [  
             {text:"理性科研", link: "wiki/ouc/howto_research/RationalResearch"},

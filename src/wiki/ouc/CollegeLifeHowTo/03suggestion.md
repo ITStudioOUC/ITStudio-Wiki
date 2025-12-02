@@ -2,7 +2,7 @@
 
 <br>
 
-> 下面是对各个具体方向的建议。有修改，有问题随时联系 gaofeng@ouc.edu.cn
+> 下面是对各个具体方向的建议。结合海大CS情况有修改，有问题随时联系 gaofeng@ouc.edu.cn
 
 <br>
 

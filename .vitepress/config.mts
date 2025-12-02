@@ -102,8 +102,8 @@ export default defineConfig({
         {
           text: "大学该如何度过",
           items: [  
-            {text:"大学该如何度过", link: "wiki/ouc/CollegeLifeHowTo/01howto"},
-            {text:"科研经历分享", link: "wiki/ouc/CollegeLifeHowTo/02planning"},
+            {text:"01大学该如何度过", link: "wiki/ouc/CollegeLifeHowTo/01howto"},
+            {text:"02早做规划", link: "wiki/ouc/CollegeLifeHowTo/02planning"},
           ]
         },
         {

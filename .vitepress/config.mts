@@ -103,6 +103,7 @@ export default defineConfig({
           text: "本科科研之旅",
           items: [  
             {text:"理性科研", link: "wiki/ouc/howto_research/RationalResearch"},
+            {text:"本科生科研经历分享", link: "wiki/ouc/howto_research/research01"},
           ]
         },
         {

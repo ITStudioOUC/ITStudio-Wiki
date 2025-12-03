@@ -91,8 +91,10 @@ export default defineConfig({
     sidebar: {
       "/wiki": [
         {
-          text: "爱特工作室简介",
-          link: "/wiki/about/intro",
+          text: "简介", link: "/wiki/about/intro",
+        },
+        {
+          text: "参与贡献", link: "/wiki/about/join",
         },
         {
           text: "OUC生存指北",

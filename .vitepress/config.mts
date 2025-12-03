@@ -106,6 +106,8 @@ export default defineConfig({
             {text:"02早做规划", link: "wiki/ouc/CollegeLifeHowTo/02planning"},
             {text:"03各方向建议", link: "wiki/ouc/CollegeLifeHowTo/03suggestion"},
             {text:"04学习建议和一些争论", link: "wiki/ouc/CollegeLifeHowTo/04studyhowto"},
+            {text:"05实践-竞赛-科研建议", link: "wiki/ouc/CollegeLifeHowTo/05practice"},
+            {text:"06关于生活的建议", link: "wiki/ouc/CollegeLifeHowTo/06life"},
           ]
         },
         {
